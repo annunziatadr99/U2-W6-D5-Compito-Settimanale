@@ -9,60 +9,73 @@
   <body class="bg-dark text-light">
     <img src="./assets/netflix_logo.png" width="120px" alt="">
 
-    <div class="container mt-5" style=" max-width:450px">
+    <div class="container mt-5" style=" max-width:570px">
         <h1 class="display-4 mb-0">Edit Profile</h1>
+
         <hr>
-        <div class="container d-flex">
+
+        <div class="container d-flex align-items-start">
             <div>
                 <img class="img-fluid" src="./assets/kids_icon.png" alt="" width="120px">
             </div>
             <div class="container d-flex flex-column">
-                    <h3 class="display-1 fs-5 bg-secondary p-1 mx-2">Strive Student</h3>
-                    <div class="container">
+                <div class="container ">
+                    <h3 class="display-1 fs-5 bg-secondary p-1 mb-4">Strive Student</h3>
+                
                         <label for="btn-group-fluid ">Language:</label>
                         <div class="btn-group-fluid ">
-                            <button class="btn btn-secondary bg-black btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <button class="btn btn-secondary bg-black border-light border-2 rounded-0 btn-sm dropdown-toggle pe-4" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 English 
                             </button>
                             <ul class="dropdown-menu">
-                                ...
+                                <li><a class="dropdown-item" href="#">English</a></li>
+                                <li><a class="dropdown-item" href="#">Italian</a></li>
+                                <li><a class="dropdown-item" href="#">Spanish</a></li>
+                                <li><a class="dropdown-item" href="#">France</a></li>
+                                <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                <li><a class="dropdown-item" href="#">Portuguese</a></li>
+                                <li><a class="dropdown-item" href="#">Chinese</a></li>
                             </ul>
                         </div>
-                    </div>
+            </div>
+
                     <hr>
-                    <h3 class="display-1 fs-5  p-1 mx-1">Maturity Settings</h3>
-                    <div class="container">
-                        <label for="btn-group-fluid ">Language:</label>
-                        <div class="btn-group-fluid ">
-                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Small button
-                            </button>
-                            <ul class="dropdown-menu">
-                                ...
-                            </ul>
-                        </div>
-                    </div>
+
+                    <div class="container d-flex flex-column align-items-start my-2">
+                    <h4 class="display-1 fs-5">Maturity Settings</h4>
+                    
+                         <h5 class="fs-6 display-1 bg-secondary bg-opacity-75 p-1">ALL MATURITY RATINGS</h5>
+                         <p class="fs-6">Show titles of all maturity ratings for this profile.</p>
+                         <button type="button" class="btn btn-secondary bg-dark text-secondary px-4 border-2 rounded-0">EDIT</button>
+
+                </div>
                     <hr>
-                    <h3 class="display-1 fs-5  p-1 mx-2">Strive Student</h3>
-                    <div class="container">
-                        <label for="btn-group-fluid ">Language:</label>
-                        <div class="btn-group-fluid ">
-                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Small button
-                            </button>
-                            <ul class="dropdown-menu">
-                                ...
-                            </ul>
-                        </div>
-                    </div>
+                    <div class="container d-flex flex-column align-items-start">
+                    <h3 class="display-1 fs-5 ">Autoplay controls</h3>
+                    <div class="form-check">
+                        <input class="form-check-input bg-dark border-secondary rounded-0"  type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Autoplay next episode in a series on all devices.
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input bg-dark border-secondary  rounded-0 " type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label " for="flexCheckChecked">
+                          Autoplay previews while browsing on all devices.
+                        </label>
+                      </div>
+                </div>
+                        
                     
             </div>
         </div>
+
         <hr>
-        <div class="container-fluid d-flex ">
-            <button type="button" class="btn btn-secondary bg-dark px-4 me-2 ">SAVE</button>
-            <button type="button" class="btn btn-secondary bg-dark px-4 me-2">CANCEL</button>
-            <button type="button" class="btn btn-secondary bg-dark px-4 me-2">DELATE PROFILE</button>
+
+        <div class="container-fluid d-flex justify-content-between">
+            <button type="button" class="btn btn-secondary bg-dark text-secondary border-2 rounded-0 px-4">SAVE</button>
+            <button type="button" class="btn btn-secondary bg-dark text-secondary border-2 rounded-0  px-4">CANCEL</button>
+            <button type="button" class="btn btn-secondary bg-dark text-secondary border-2 rounded-0 px-5 ">DELATE PROFILE</button>
         </div>
            
         
